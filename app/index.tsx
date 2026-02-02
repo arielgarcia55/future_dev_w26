@@ -1,5 +1,6 @@
 import { Button } from "@react-navigation/elements";
 import { StyleSheet, Switch, Text, View } from "react-native";
+import CustomButton from "./components/button";
 
 export default function Page() {
   return (
@@ -7,11 +8,11 @@ export default function Page() {
       <View style={styles.main}>
         <Text style={styles.title}>Hello World</Text>
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
+        <CustomButton name="Ariel"></CustomButton>
       </View>
     </View>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
