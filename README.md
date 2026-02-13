@@ -1,3 +1,3 @@
-# future_dev_w26
+This is the repo used to showcase code in our Future Dev: Intro to Mobile Dev course
 
-Hello! - Ariel
+Made by: Ariel Garcia
